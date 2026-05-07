@@ -1,5 +1,5 @@
 // =========================================================
-//  KASE — State Skill Development Expenditure
+//  KASE — State Skill Development Allocation
 //  year.js  (Year Detail Page)
 // =========================================================
 
@@ -25,10 +25,10 @@ async function init() {
   yearData = await fetchYearData(currentYear);
   if (!yearData) { document.body.innerHTML = '<p style="padding:2rem;font-family:sans-serif">Data not found.</p>'; return; }
 
-  document.getElementById('pageTitle').textContent    = `State Skill Development Expenditure`;
+  document.getElementById('pageTitle').textContent    = `State Skill Development Allocation`;
   document.getElementById('pageSubtitle').textContent = `${YEAR_LABELS[currentYear]} — Department-wise Analysis`;
   document.getElementById('heroLabel').textContent    = `Financial Year ${YEAR_LABELS[currentYear]}`;
-  document.getElementById('heroYear').textContent     = `State Skill Development Expenditure`;
+  document.getElementById('heroYear').textContent     = `State Skill Development Allocation`;
   document.getElementById('heroSubtitle').textContent = `Detailed department and agency-level skill outlay analysis`;
 
   renderYearSummaryCards();
