@@ -78,7 +78,7 @@ function renderYearGrid(allData) {
     return `
       <a href="year.html?year=${y}" class="year-card animate-in" style="animation-delay:${i * 0.07}s">
         <div class="year-card-year">${YEAR_LABELS[y]}</div>
-        <div class="year-card-label">State Skill Development Expenditure</div>
+        <div class="year-card-label">State Skill Development Allocation</div>
         <div class="year-card-total">₹${d.total.toFixed(2)}</div>
         <div class="year-card-total-label">Total Outlay (₹ Crores)</div>
         <div class="year-card-chips">
