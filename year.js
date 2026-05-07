@@ -51,7 +51,7 @@ function renderYearSummaryCards() {
   document.getElementById('yearSummaryCards').innerHTML = `
     <div class="sum-card animate-in">
       <div class="sum-card-inner">
-        <div class="sum-card-icon total">💰</div>
+        <div class="sum-card-icon total"></div>
         <div class="sum-card-body">
           <div class="sum-card-label">Total Outlay</div>
           <div class="sum-card-value">₹${d.total.toFixed(2)} Cr</div>
@@ -62,7 +62,7 @@ function renderYearSummaryCards() {
     </div>
     <div class="sum-card animate-in" style="animation-delay:.08s">
       <div class="sum-card-inner">
-        <div class="sum-card-icon skill">📈</div>
+        <div class="sum-card-icon skill"></div>
         <div class="sum-card-body">
           <div class="sum-card-label">Skill Development</div>
           <div class="sum-card-value">₹${d.skill.toFixed(2)} Cr</div>
@@ -73,7 +73,7 @@ function renderYearSummaryCards() {
     </div>
     <div class="sum-card animate-in" style="animation-delay:.16s">
       <div class="sum-card-inner">
-        <div class="sum-card-icon nonskill">🏗️</div>
+        <div class="sum-card-icon nonskill"></div>
         <div class="sum-card-body">
           <div class="sum-card-label">Non-Skill Component</div>
           <div class="sum-card-value">₹${d.nonSkill.toFixed(2)} Cr</div>
